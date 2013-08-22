@@ -1,12 +1,8 @@
-//Conditional Logic - Logical Operators
+//Prompt and Alert
 
-var budget = 100;
-var galaxyPrice = 199.99;
-var wonLottery = true;
+var width = prompt("We are calculating the area of a rectangle. \nPlease enter the width");
+var height = prompt("Please enter the height.");
+var area = width * height; //calculates with that info
+//console.log(area);//prints to the console
 
-//if the price of the phone is less our budget and if our paycheck is greater that 300
-if(galaxyPrice < budget || wonLottery){
-    console.log("We can buy the phone") ;
-}else{
-    console.log("No phone for you!!")
-}
+alert("The area of your rectangle is " + area);
