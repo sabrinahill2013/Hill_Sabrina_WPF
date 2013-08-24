@@ -1,15 +1,16 @@
-//Sabrina Hill Conditionals_Industry Related  August 22nd, 2013
+//Sabrina Hill Conditionals_Wacky  August 22nd, 2013
 
 
-//The following code will be calculating how much more an hour a person will make if they get a raise every three months for two years.
+//The following code will be calculating how many slices of pizza each person at a dinner party can have based on ordering 8
 
-//var raiseAmount = prompt("How much are your raises?"); //The user will input how much of a raise they will get
-//var numberOfRaises = prompt("How many raises will you get in two years");//The user will input how many raises they will get over two years
-//var hourlyIncrease = raiseAmount * numberOfRaises; //calculates how much more an hour the person will make after two years of raises every three months
+var numberOfAttendees = prompt("How many people are coming to the pizza party?"); //The user will input how many people are coming to the party
+var numberOfSlicesInOnePie = prompt("How many slices come in a whole pizza");//The user will input how many slices are in one whole pizza
+var howMuchEachPersonCanHave = numberOfAttendees * numberOfSlicesInOnePie /5; //calculates how many slices each person at the party can have
 
-//console.log(hourlyIncrease); //Prints to the console how much more an hour they will be making
 
-//alert("You will make this much more an hour if you get a raise every three months for two years: " +  hourlyIncrease); //This will calculate how much more the person will be making an hour based on the number of raises they get
+console.log(howMuchEachPersonCanHave); //Prints to the console how many slices each person can have
+
+alert("Each person can have this many slices: " +  howMuchEachPersonCanHave); //This will calculate how many slices each person at the pizza party can have
 
 //var hourlyIncrease = 4; //After taking the users input we found that they will make an extra four dollars an hour if their raises are 50 cent
 
@@ -32,10 +33,10 @@
 //The following is an example of the above scenario using Logical Operators
 //I am calculating to see if the person has reached their desired amount or not
 
-var currentlyHourlyRate = 9 //Representing nine dollars per hour
-var desiredRate = 13 //Representing thirteen dollars per hour
-var finalRate = 13 //Representing dollars per hour
+//var currentlyHourlyRate = 9 //Representing nine dollars per hour
+//var desiredRate = 13 //Representing thirteen dollars per hour
+//var finalRate = 13 //Representing dollars per hour
 
-if(currentlyHourlyRate < desiredRate || finalRate){
-console.log("You have a few more raises to get before you reach your goal")
-}else{console.log("Congratulations!! You have reached your desired amount")};
+//if(currentlyHourlyRate < desiredRate || finalRate){
+//console.log("You have a few more raises to get before you reach your goal")
+//}else{console.log("Congratulations!! You have reached your desired amount")};
