@@ -22,14 +22,13 @@
 
 //The following is an example of if and else also including a relational operator
 
-var numberOfSlicesInONePie = 8; //These number are representing dollars per hour
-var howMuchEachPersonCanHave = 6; //These numbers are representing dollars per hour
+var numberOfSlicesInONePie = 8;
+var howMuchEachPersonCanHave = 6;
 
 
 if(howMuchEachPersonCanHave < numberOfSlicesInONePie){//code performed if condition is true
 console.log("You will have enough to feed everyone"); //this will print to the console if there will be enough food
 }else{console.log("You may need to order more pizza")}//condition performed if the there is more pizza that needs to be ordered
-
 
 
 
