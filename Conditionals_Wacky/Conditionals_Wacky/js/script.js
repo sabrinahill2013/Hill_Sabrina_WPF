@@ -22,13 +22,23 @@
 
 //The following is an example of if and else also including a relational operator
 
-var numberOfSlicesInONePie = 8;
-var howMuchEachPersonCanHave = 6;
+//var numberOfSlicesInONePie = 8;
+//var howMuchEachPersonCanHave = 6;
 
 
-if(howMuchEachPersonCanHave < numberOfSlicesInONePie){//code performed if condition is true
-console.log("You will have enough to feed everyone"); //this will print to the console if there will be enough food
-}else{console.log("You may need to order more pizza")}//condition performed if the there is more pizza that needs to be ordered
+//if(howMuchEachPersonCanHave < numberOfSlicesInONePie){//code performed if condition is true
+//console.log("You will have enough to feed everyone"); //this will print to the console if there will be enough food
+//}else{console.log("You may need to order more pizza")}//condition performed if the there is more pizza that needs to be ordered
 
+//The following is an example of the above scenario using Logical Operators
+//I am calculating to see if there will be enough pizza to feed everyone in the pizza party
+
+var numberOfPizzasBeingOrdered = 8
+var howManySlicesInOnePie = 8
+var howMuchEachPersonCanHave = 8
+
+if(howManySlicesInOnePie <= howMuchEachPersonCanHave || numberOfPizzasBeingOrdered){
+console.log("You will have enough food for the party")//Will print to the console if there will be enough food fo the pizza party
+}else{console.log("People are still going to be hungry")};
 
 
