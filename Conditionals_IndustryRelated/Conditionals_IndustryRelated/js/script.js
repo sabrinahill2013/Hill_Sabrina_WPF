@@ -3,11 +3,18 @@
 
 //The following code will be calculating how much more an hour a person will make if they get a raise every three months for two years.
 
-var raiseAmount = prompt("How much are your raises?"); //The user will input how much of a raise they will get
-var numberOfRaises = prompt("How many raises will you get in two years");//The user will input how many raises they will get over two years
-var hourlyIncrease = raiseAmount * numberOfRaises; //calculates how much more an hour the person will make after two years of raises every three months
+//var raiseAmount = prompt("How much are your raises?"); //The user will input how much of a raise they will get
+//var numberOfRaises = prompt("How many raises will you get in two years");//The user will input how many raises they will get over two years
+//var hourlyIncrease = raiseAmount * numberOfRaises; //calculates how much more an hour the person will make after two years of raises every three months
 
-console.log(hourlyIncrease); //Prints to the console how much more an hour they will be making
+//console.log(hourlyIncrease); //Prints to the console how much more an hour they will be making
 
-alert("You will make this much more an hour if you get a raise every three months for two years: " +  hourlyIncrease); //This will calculate how much more the person will be making an hour based on the number of raises they get
+//alert("You will make this much more an hour if you get a raise every three months for two years: " +  hourlyIncrease); //This will calculate how much more the person will be making an hour based on the number of raises they get
+
+var hourlyIncrease = 4; //After taking the users input we found that they will make an extra four dollars an hour if their raises are 50 cent
+
+
+//The following is a ternary example of the scenario including a relational operator
+
+(hourlyIncrease >= 4) ? console.log("You are considered pay grade four") : console.log("You are still pay grade three")
 
