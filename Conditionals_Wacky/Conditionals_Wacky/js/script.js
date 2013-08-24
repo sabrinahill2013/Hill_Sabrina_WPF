@@ -27,8 +27,8 @@ var howMuchEachPersonCanHave = 6; //These numbers are representing dollars per h
 
 
 if(howMuchEachPersonCanHave < numberOfSlicesInONePie){//code performed if condition is true
-console.log("You will have enough to feed everyone"); //this will print to the console if the person will be getting what they want to get an hour
-}else{console.log("You may need to order more pizza")}//condition performed if the desired hourly increase is less than what the person wants
+console.log("You will have enough to feed everyone"); //this will print to the console if there will be enough food
+}else{console.log("You may need to order more pizza")}//condition performed if the there is more pizza that needs to be ordered
 
 
 
