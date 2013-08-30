@@ -1,12 +1,9 @@
-//Sabrina Hill Functions Parameters and Arguments
+//Sabrina Hill Functions - Returning Values
 
-function dogYears(age){ //The parenthesis in the function definition holds parameters
-    var dogYears = age * 7;
-    console.log("Sparky is " + dogYears + " years old.")
+var total = calcArea(30, 20);
+
+function calcArea(w, h){
+    var area = w * h;
+    return area; //function is spitting the info out
 }
-
-var age1 = 4;
-dogYears(age1);
-dogYears(5) //The parenthesis in the function call holds arguments
-
-
+console.log(total);
