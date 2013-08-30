@@ -1,9 +1,14 @@
-//Sabrina Hill Functions - Returning Values
+//Sabrina Hill Functions - Anonymous Functions
 
-var total = calcArea(30, 20);
 
-function calcArea(w, h){
-    var area = w * h;
-    return area; //function is spitting the info out
+var calcArea = function(width, height){  //defining
+//code the function runs
+    var area = width * height;
+    return area;
 }
-console.log(total);
+
+var a = calcArea(20, 30);  //invoking
+
+console.log(a);
+
+//invoking/calling should happen after defining the function
