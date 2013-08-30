@@ -14,13 +14,21 @@
 
 //The following is a regular "named" function example of the above scenario
 
-function numberOfShowersPerMonth(){
-    var numberOfShowersDaily = 2;
-    var numberOfDaysInMonth = 31;
+//function numberOfShowersPerMonth(){
+    //var numberOfShowersDaily = 2;
+    //var numberOfDaysInMonth = 31;
+    //var numberOfShowersPerMonth = numberOfShowersDaily * numberOfDaysInMonth;
+    //console.log(numberOfShowersPerMonth)
+//}
+//numberOfShowersPerMonth();
+
+//The following is an Anonymous Function
+
+var numberOfShowersPerMonth = function(numberOfShowersDaily, numberOfDaysInMonth){ //defining the function
     var numberOfShowersPerMonth = numberOfShowersDaily * numberOfDaysInMonth;
-    console.log(numberOfShowersPerMonth)
+    return numberOfShowersPerMonth;
 }
-numberOfShowersPerMonth();
 
+var a = numberOfShowersPerMonth(2, 31); //invoking or "calling out" the function
 
-
+console.log(a);
