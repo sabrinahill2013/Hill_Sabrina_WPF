@@ -24,11 +24,22 @@
 
 //The following is an Anonymous Function
 
-var numberOfShowersPerMonth = function(numberOfShowersDaily, numberOfDaysInMonth){ //defining the function
-    var numberOfShowersPerMonth = numberOfShowersDaily * numberOfDaysInMonth;
-    return numberOfShowersPerMonth;
-}
+//var numberOfShowersPerMonth = function(numberOfShowersDaily, numberOfDaysInMonth){ //defining the function
+    //var numberOfShowersPerMonth = numberOfShowersDaily * numberOfDaysInMonth;
+    //return numberOfShowersPerMonth;
+//}
 
-var a = numberOfShowersPerMonth(2, 31); //invoking or "calling out" the function
+//var a = numberOfShowersPerMonth(2, 31); //invoking or "calling out" the function
 
-console.log(a);
+//console.log(a);
+
+//The following is an ifElse using the scenario above
+
+var numberOfShowersDaily = 2;
+var numberOfDayInMonth = 31;
+var numberOfShowersPerMonth = numberOfShowersDaily * numberOfDayInMonth
+
+if(numberOfShowersDaily < numberOfShowersPerMonth){//code performed if condition is true
+console.log("You may need to shower more often"); //this will print to the console if I need to shower more often
+}else{console.log("You take enough showers")}//condition performed if I take enough showers already
+
