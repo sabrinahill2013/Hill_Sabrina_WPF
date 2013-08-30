@@ -1,14 +1,12 @@
-//Sabrina Hill Functions Variable Scope
+//Sabrina Hill Functions Parameters and Arguments
 
-var width = 5;
-
-function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
-    //console.log(area);
-
+function dogYears(age){ //The parenthesis in the function definition holds parameters
+    var dogYears = age * 7;
+    console.log("Sparky is " + dogYears + " years old.")
 }
-console.log(width);
-calcArea();
+
+var age1 = 4;
+dogYears(age1);
+dogYears(5) //The parenthesis in the function call holds arguments
+
 
