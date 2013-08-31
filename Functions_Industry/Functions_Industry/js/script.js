@@ -14,11 +14,22 @@
 
 //The following is a regular "named" function example of the above scenario
 
-function totalNumberOfFliersToMake(){
-var numberOfClients = 5;
-var numberOfRequestedFliers = 100;
+//function totalNumberOfFliersToMake(){
+//var numberOfClients = 5;
+//var numberOfRequestedFliers = 100;
+//var totalNumberOfFliersToMake = numberOfClients * numberOfRequestedFliers;
+//console.log(totalNumberOfFliersToMake);
+//}
+//totalNumberOfFliersToMake();
+
+//The following is an Anonymous Function
+
+var totalNumberOfFliersToMake = function(numberOfClients, numberOfRequestedFliers){ //defining the function
 var totalNumberOfFliersToMake = numberOfClients * numberOfRequestedFliers;
-console.log(totalNumberOfFliersToMake);
+return totalNumberOfFliersToMake;
 }
-totalNumberOfFliersToMake();
+
+var a = totalNumberOfFliersToMake(5, 100); //invoking or "calling out" the function
+
+console.log(a);
 
