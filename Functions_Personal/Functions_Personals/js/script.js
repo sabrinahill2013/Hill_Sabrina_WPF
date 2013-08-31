@@ -33,13 +33,21 @@
 
 //console.log(a);
 
-//The following is an ifElse using the scenario above
+//The following is an ifElse including a logical operator based on if I have a goal of taking 62 showers in a 31 day month.
 
-var numberOfShowersDaily = 2;
-var numberOfDayInMonth = 31;
-var numberOfShowersPerMonth = numberOfShowersDaily * numberOfDayInMonth
+//var numberOfRequiredShowersDaily = 2;
+//var numberOfRequiredShowersWeekly = 14;
+//var numberOfShowersActuallyTakenWeekly = 13;
 
-if(numberOfShowersDaily < numberOfShowersPerMonth){//code performed if condition is true
-console.log("You may need to shower more often"); //this will print to the console if I need to shower more often
-}else{console.log("You take enough showers")}//condition performed if I take enough showers already
+
+//if(numberOfShowersActuallyTakenWeekly < numberOfRequiredShowersWeekly && numberOfRequiredShowersDaily){//code performed if condition is true
+//console.log("You may need to shower more often"); //this will print to the console if I need to shower more often
+//}else{console.log("You take enough showers")}//condition performed if I take enough showers already
+
+
+//The following is a ternary example of the scenario including a logical operator
+
+var numberOfShowersDaily = 1;
+
+(numberOfShowersDaily < 2) ? console.log("You must take more showers daily if you have a shower goal of 62 showers per month") : console.log("You are taking enough showers")
 
