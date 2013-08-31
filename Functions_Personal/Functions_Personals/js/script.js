@@ -57,7 +57,7 @@
 //var numberOfDaysPerWeek = 7;
 //var numberOfWeeksPerMonth = 4
 //var showerGoal = numberOfShowersDaily * numberOfDaysPerWeek * numberOfWeeksPerMonth/4;
-//console.log(showerGoal);
+//console.log(showerGoal)
 
 //The following is a function using three parameters and returning a value if I had a shower goal of 56 showers in a 30 day month.
 
@@ -67,4 +67,4 @@ function showerGoal(showersDaily, daysInWeek, weeksPerMonth){
     var showerGoal = showersDaily * daysInWeek * weeksPerMonth
     return showerGoal;
 }
-console.log(total);
+console.log(total)
