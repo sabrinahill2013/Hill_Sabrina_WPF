@@ -53,8 +53,18 @@
 
 //In the following code I will be using an Arithmetic Operator to determine how many showers I need to take a week in a 30 day month based on if i want to take 56 showers a month
 
-var numberOfShowersDaily = 2;
-var numberOfDaysPerWeek = 7;
-var numberOfWeeksPerMonth = 4
-var showerGoal = numberOfShowersDaily * numberOfDaysPerWeek * numberOfWeeksPerMonth/4;
-console.log(showerGoal);
+//var numberOfShowersDaily = 2;
+//var numberOfDaysPerWeek = 7;
+//var numberOfWeeksPerMonth = 4
+//var showerGoal = numberOfShowersDaily * numberOfDaysPerWeek * numberOfWeeksPerMonth/4;
+//console.log(showerGoal);
+
+//The following is a function using three parameters and returning a value if I had a shower goal of 56 showers in a 30 day month.
+
+var total = showerGoal(2, 7, 4);
+
+function showerGoal(showersDaily, daysInWeek, weeksPerMonth){
+    var showerGoal = showersDaily * daysInWeek * weeksPerMonth
+    return showerGoal;
+}
+console.log(total);
