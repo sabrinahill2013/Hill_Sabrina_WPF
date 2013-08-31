@@ -35,13 +35,27 @@
 
 //The following is an ifElse including a logical operator to see if I have enough days to make all the fliers
 
-var estimatedCompletionRate = 125; //number is representing days, so an estimated number of 125 completed fliers per day
+//var estimatedCompletionRate = 125; //number is representing days, so an estimated number of 125 completed fliers per day
+//var numberCompletedAlready = 100;
+//var averageCompletionRate = 100; //100 fliers per day
+//var deadline = 5 //number representing days, so I have 5 days to complete
+
+//if(averageCompletionRate < estimatedCompletionRate || numberCompletedAlready){//code performed if condition is true
+//console.log("You need to work a little faster!"); //this will print to the console if I need to speed up my work
+//}else{console.log("You will complete the fliers by the deadline!")}//condition performed if I am completing enough fliers a day and will meet the deadline
+
+
+//The following is an Else If statement
+
+var estimatedCompletionRate = 125;
 var numberCompletedAlready = 100;
-var averageCompletionRate = 100; //100 fliers per day
-var deadline = 5 //number representing days, so I have 5 days to complete
+var averageCompletionRate = 100;
+var numberOfDayInDeadline = 5
 
-if(averageCompletionRate < estimatedCompletionRate || numberCompletedAlready){//code performed if condition is true
-console.log("You need to work a little faster!"); //this will print to the console if I need to speed up my work
-}else{console.log("You will complete the fliers by the deadline!")}//condition performed if I am completing enough fliers a day and will meet the deadline
-
-
+if(numberCompletedAlready > estimatedCompletionRate){
+    console.log("You are working at a good pace to meet the deadline");
+}else if(averageCompletionRate < estimatedCompletionRate){
+    console.log("You are working at a slower speed than what you estimated and you need to speed up");
+}else{
+    console.log("Your speed of work is just fine and you will finish within the deadline")
+}
