@@ -47,15 +47,22 @@
 
 //The following is an Else If statement
 
-var estimatedCompletionRate = 125;
-var numberCompletedAlready = 100;
-var averageCompletionRate = 100;
-var numberOfDayInDeadline = 5
+//var estimatedCompletionRate = 125;
+//var numberCompletedAlready = 100;
+//var averageCompletionRate = 100;
+//var numberOfDayInDeadline = 5
 
-if(numberCompletedAlready > estimatedCompletionRate){
-    console.log("You are working at a good pace to meet the deadline");
-}else if(averageCompletionRate < estimatedCompletionRate){
-    console.log("You are working at a slower speed than what you estimated and you need to speed up");
-}else{
-    console.log("Your speed of work is just fine and you will finish within the deadline")
-}
+//if(numberCompletedAlready > estimatedCompletionRate){
+//    console.log("You are working at a good pace to meet the deadline");
+//}else if(averageCompletionRate < estimatedCompletionRate){
+//    console.log("You are working at a slower speed than what you estimated and you need to speed up");
+//}else{
+//    console.log("Your speed of work is just fine and you will finish within the deadline")
+//}
+
+//The following is a ternary example of the scenario including a logical operator
+
+var numberOfFliersCompletedDaily = 100;
+
+(numberOfFliersCompletedDaily < 125) ? console.log("You need to speed up your work") : console.log("You will finish within the deadline time")
+
