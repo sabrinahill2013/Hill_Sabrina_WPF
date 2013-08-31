@@ -47,7 +47,14 @@
 
 //The following is a ternary example of the scenario including a logical operator
 
-var numberOfShowersDaily = 1;
+//var numberOfShowersDaily = 1;
 
-(numberOfShowersDaily < 2) ? console.log("You must take more showers daily if you have a shower goal of 62 showers per month") : console.log("You are taking enough showers")
+//(numberOfShowersDaily < 2) ? console.log("You must take more showers daily if you have a shower goal of 62 showers per month") : console.log("You are taking enough showers")
 
+//In the following code I will be using an Arithmetic Operator to determine how many showers I need to take a week in a 30 day month based on if i want to take 56 showers a month
+
+var numberOfShowersDaily = 2;
+var numberOfDaysPerWeek = 7;
+var numberOfWeeksPerMonth = 4
+var showerGoal = numberOfShowersDaily * numberOfDaysPerWeek * numberOfWeeksPerMonth/4;
+console.log(showerGoal);
