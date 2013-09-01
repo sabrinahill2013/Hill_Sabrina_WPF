@@ -62,7 +62,16 @@
 
 //The following is a ternary example of the scenario including a logical operator
 
-var numberOfFliersCompletedDaily = 100;
+//var numberOfFliersCompletedDaily = 100;
 
-(numberOfFliersCompletedDaily < 125) ? console.log("You need to speed up your work") : console.log("You will finish within the deadline time")
+//(numberOfFliersCompletedDaily < 125) ? console.log("You need to speed up your work") : console.log("You will finish within the deadline time")
+
+//In the following code I will be using 2 Arithmetic Operator to determine how many fliers a day I should make to complete in the time allowed of 5 days
+
+var numberOfClients = 5
+var fliersRequestedPerClient = 100
+var daysToComplete = 5
+
+var completionRate = numberOfClients * fliersRequestedPerClient / daysToComplete
+console.log(completionRate)
 
