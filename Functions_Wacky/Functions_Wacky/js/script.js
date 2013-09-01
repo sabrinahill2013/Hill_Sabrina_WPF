@@ -36,14 +36,28 @@
 //console.log(a);
 
 //The following is an ifElse including a logical operator to see if I will have enough beers based on needed at least 120 beers but really wanting 240 beers to be at the party
-var numberOfPeople = 5;
-var casesPerPerson = 1;
-var numberOfBeerPerCase = 24;
-var totalBeersBoughtTOParty = 120;
-var totalBeerWantedAtParty = 240;
+//var numberOfPeople = 5;
+//var casesPerPerson = 1;
+//var numberOfBeerPerCase = 24;
+//var totalBeersBoughtTOParty = 120;
+//var totalBeerWantedAtParty = 240;
 
-if(totalBeersBoughtTOParty < totalBeerWantedAtParty && numberOfPeople * casesPerPerson * numberOfBeerPerCase){//code performed if condition is true
-console.log("Tell each person coming to bring two 24 cases instead of 1!"); //this will print to the console if I should tell each of the 5 people to bring one or two cases based on how many beers I want at the party
-}else{console.log("Look like you will have all the beers you want at the party. Have Fun!")}//condition performed if I will have enough beers at the party
+//if(totalBeersBoughtTOParty < totalBeerWantedAtParty && numberOfPeople * casesPerPerson * numberOfBeerPerCase){//code performed if condition is true
+//console.log("Tell each person coming to bring two 24 cases instead of 1!"); //this will print to the console if I should tell each of the 5 people to bring one or two cases based on how many beers I want at the party
+//}else{console.log("Look like you will have all the beers you want at the party. Have Fun!")}//condition performed if I will have enough beers at the party
 
+//The following is an Else If statement
+
+var totalBeersBoughtToParty = 220;
+var totalBeersWantedAtParty = 240;
+var minimumNeededAtParty = 200;
+
+
+if(totalBeersBoughtToParty > totalBeersWantedAtParty){
+    console.log("You should tell the people to bring more beers");
+}else if(totalBeersBoughtToParty > minimumNeededAtParty){
+    console.log("You not have the amount you wanted but you will have the minimum amount needed");
+}else{
+    console.log("Buy some more beers yourself")
+}
 
