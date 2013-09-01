@@ -48,16 +48,22 @@
 
 //The following is an Else If statement
 
-var totalBeersBoughtToParty = 220;
-var totalBeersWantedAtParty = 240;
-var minimumNeededAtParty = 200;
+//var totalBeersBoughtToParty = 220;
+//var totalBeersWantedAtParty = 240;
+//var minimumNeededAtParty = 200;
 
 
-if(totalBeersBoughtToParty > totalBeersWantedAtParty){
-    console.log("You should tell the people to bring more beers");
-}else if(totalBeersBoughtToParty > minimumNeededAtParty){
-    console.log("You not have the amount you wanted but you will have the minimum amount needed");
-}else{
-    console.log("Buy some more beers yourself")
-}
+//if(totalBeersBoughtToParty > totalBeersWantedAtParty){
+  //  console.log("You should tell the people to bring more beers");
+//}else if(totalBeersBoughtToParty > minimumNeededAtParty){
+  //  console.log("You not have the amount you wanted but you will have the minimum amount needed");
+//}else{
+  //  console.log("Buy some more beers yourself")
+//}
+
+//The following is a ternary example of the scenario including a logical operator
+
+var totalBeersAtParty = 220;
+
+(totalBeersAtParty < 125) ? console.log("You need to go to the store and buy more beer") : console.log("You have enough beer. Have Fun and Party!!")
 
