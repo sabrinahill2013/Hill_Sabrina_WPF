@@ -83,4 +83,4 @@ function fliersMadeInSixMonths (numberOfClients, fliersPerClientAMonth, numberOf
   var fliersMadeInSixMonths = numberOfClients * fliersPerClientAMonth * numberOfMonths
 return fliersMadeInSixMonths;
 }
-console.log(total)
+console.log(total);
