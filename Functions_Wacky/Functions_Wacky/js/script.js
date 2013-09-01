@@ -70,10 +70,22 @@
 //In the following code I will be using 2 Arithmetic Operator to determine how many left over beers will be at the party after each person drinks the amount of beers they wanted.
 
 
-var numberOfPeople = 5
-var numberOfBeersPerCase = 24
-var numberOfBeerEachPersonWants= 10
+//var numberOfPeople = 5
+//var numberOfBeersPerCase = 24
+//var numberOfBeerEachPersonWants= 10
 
 
-var leftOverBeers = numberOfPeople * numberOfBeersPerCase - numberOfPeople * numberOfBeerEachPersonWants
-console.log(leftOverBeers)
+//var leftOverBeers = numberOfPeople * numberOfBeersPerCase - numberOfPeople * numberOfBeerEachPersonWants
+//console.log(leftOverBeers)
+
+//The following is a function using three parameters and returning a value how many beers will be at the party of all five people bought 2 twelve packs
+
+var total = totalNumberOfBeersAtParty (5, 2, 12);
+
+function totalNumberOfBeersAtParty (numberOfPeople, packsBoughtPerPerson, beersPerPack){
+  var totalNumberOfBeersAtParty = numberOfPeople * packsBoughtPerPerson * beersPerPack
+return totalNumberOfBeersAtParty;
+}
+console.log(total)
+
+
