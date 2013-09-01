@@ -68,10 +68,19 @@
 
 //In the following code I will be using 2 Arithmetic Operator to determine how many fliers a day I should make to complete in the time allowed of 5 days
 
-var numberOfClients = 5
-var fliersRequestedPerClient = 100
-var daysToComplete = 5
+//var numberOfClients = 5
+//var fliersRequestedPerClient = 100
+//var daysToComplete = 5
 
-var completionRate = numberOfClients * fliersRequestedPerClient / daysToComplete
-console.log(completionRate)
+//var completionRate = numberOfClients * fliersRequestedPerClient / daysToComplete
+//console.log(completionRate)
 
+//The following is a function using three parameters and returning a value how many fliers I will made based on my clients needed 100 fliers made a month.
+
+var total = fliersMadeInSixMonths (5, 100, 6);
+
+function fliersMadeInSixMonths (numberOfClients, fliersPerClientAMonth, numberOfMonths){
+  var fliersMadeInSixMonths = numberOfClients * fliersPerClientAMonth * numberOfMonths
+return fliersMadeInSixMonths;
+}
+console.log(total)
