@@ -15,12 +15,23 @@
 
 //The following is a regular "named" function example of the above scenario
 
-function totalNumberOfBeersAtParty(){
-var numberOfPeople = 10;
-var numberOfCasesPerPerson = 1;
-var numberOfBeersPerCase = 24;
+//function totalNumberOfBeersAtParty(){
+//var numberOfPeople = 10;
+//var numberOfCasesPerPerson = 1;
+//var numberOfBeersPerCase = 24;
+//var totalNumberOfBeersAtParty = numberOfPeople * numberOfCasesPerPerson * numberOfBeersPerCase;
+//console.log(totalNumberOfBeersAtParty);
+//}
+//totalNumberOfBeersAtParty();
+
+//The following is an Anonymous Function using the given scenario
+
+var totalNumberOfBeersAtParty = function(numberOfPeople, numberOfCasesPerPerson, numberOfBeersPerCase){ //defining the function
 var totalNumberOfBeersAtParty = numberOfPeople * numberOfCasesPerPerson * numberOfBeersPerCase;
-console.log(totalNumberOfBeersAtParty);
+return totalNumberOfBeersAtParty;
 }
-totalNumberOfBeersAtParty();
+
+var a = totalNumberOfBeersAtParty(10, 1, 24); //invoking or "calling out" the function
+
+console.log(a);
 
